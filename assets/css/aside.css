@@ -45,13 +45,13 @@
         5px 5px 5px #000000e6;
 }
 @keyframes UpAndDown{
-    0%{transform: translateY(0px)}
+    0%{transform: translateY(4px)}
     50%{transform: translateY(8px)}
-    100%{transform: translateY(0px)}
+    100%{transform: translateY(4px)}
 }
 #aside-download i {
     font-size: 1.25em;
-    animation: UpAndDown 1s linear infinite;
+    animation: UpAndDown 1.5s linear infinite;
 }
 #aside-download h3 {
     margin: 0;
