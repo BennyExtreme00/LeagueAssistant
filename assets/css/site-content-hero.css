@@ -1,0 +1,184 @@
+@import url('variables.css');
+
+
+
+
+
+#hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+
+#hero .banner {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: min-content;
+    overflow: hidden;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+
+
+#hero .hero-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: consolas, serif;
+    padding: 320px 0;
+    width: 100%;
+    height: min-content;
+    color: #dddddd;
+    overflow: hidden;
+    z-index: 3;
+}
+#hero .hero-content .hero-content-title {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 5em;
+    z-index: 4;
+}
+#hero .hero-content .hero-content-subtitle {
+    position: relative;
+    top: -3.5rem;
+    font-size: 2em;
+    z-index: 5;
+}
+#hero .hero-content .hero-content-links {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20rem;
+    height: 7rem;
+    top: -4rem;
+}
+#hero .hero-content .hero-content-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1da6d1;
+    transition-duration: 0.2s;
+    border-radius: 1.1rem;
+    width: 8.25rem;
+    height: 2.75rem;
+    color: #ddd;
+    background: #1da6d1;
+    box-shadow: 0 0 10px #1da6d1;
+    font-weight: 700;
+    z-index: 6;
+}
+
+
+
+
+
+@media (max-width:40em){
+    #hero .hero-content .hero-content-title {
+        font-size: 3rem;
+    }
+    #hero .hero-content .hero-content-subtitle {
+        font-size: 1.5rem;
+        top: -1.5rem;
+    }
+    #hero .hero-content .hero-content-links {
+        width: 20rem;
+        height: 7rem;
+        top: -1rem;
+    }
+    #hero .hero-content .hero-content-link {
+        border-width: 2px;
+        border-radius: 1rem;
+        width: 8.25rem;
+        height: 2.75rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width:40em){
+    #hero .hero-content .hero-content-title {
+        font-size: 5rem;
+    }
+    #hero .hero-content .hero-content-subtitle {
+        font-size: 1.75rem;
+        top: -3.5rem;
+    }
+    #hero .hero-content .hero-content-links {
+        width: 20rem;
+        height: 7rem;
+        top: -4rem;
+    }
+    #hero .hero-content .hero-content-link {
+        border-width: 2px;
+        border-radius: 1rem;
+        width: 8.25rem;
+        height: 2.75rem;
+        font-size: 1rem;
+    }
+}
+@media (min-width:64em){
+    #hero .hero-content .hero-content-title {
+        font-size: 6rem;
+    }
+    #hero .hero-content .hero-content-subtitle {
+        font-size: 1.75rem;
+        top: -4rem;
+    }
+    #hero .hero-content .hero-content-links {
+        width: 18.5rem;
+        top: -4rem;
+    }
+    #hero .hero-content .hero-content-link {
+        border-width: 2px;
+        border-radius: 1.1rem;
+        width: 8.25rem;
+        height: 2.75rem;
+        font-size: 1em;
+        background: #1da6d1;
+        box-shadow: 0 0 10px #1da6d1;
+    }
+    #hero .hero-content .hero-content-link:hover {
+        background: #1da6d1;
+        box-shadow: 0 0 20px #1da6d1, 0 0 50px #1da6d1, 0 0 80px #1da6d1;
+    }
+}
+@media (min-width:87.5em){
+    #hero .hero-content .hero-content-title {
+        font-size: 6rem;
+    }
+    #hero .hero-content .hero-content-subtitle {
+        font-size: 1.75rem;
+        top: -4rem;
+    }
+    #hero .hero-content .hero-content-links {
+        width: 23rem;
+        top: -4rem;
+    }
+    #hero .hero-content .hero-content-link {
+        border-width: 3px;
+        border-radius: 1rem;
+        width: 10rem;
+        height: 3rem;
+        font-size: 1.25rem;
+    }
+}
+@media (min-width:123.75em){
+    #hero .banner .hero-banner-img {
+        min-width: 100%;
+    }
+}

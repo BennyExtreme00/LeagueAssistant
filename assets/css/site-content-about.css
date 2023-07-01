@@ -1,0 +1,299 @@
+#about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    width: 100%;
+    height: min-content;
+    z-index: 1;
+}
+
+
+
+
+
+#about .about-title {
+    top: 0;
+    color: #dddddd;
+    text-shadow: 0 0 1px #dddddd, 0 0 2px #dddddd, 0 0 4px #dddddd;
+}
+
+
+
+
+
+#about .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: min-content;
+}
+#about .about-content > div {
+    margin: 0 20px 20px 20px;
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+#about .about-content .about-content-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+    color: #bbbbbb;
+}
+#about .about-content .about-content-description .about-content-description-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-family: consolas, serif;
+}
+#about .about-content .about-content-description .about-content-description-inner {
+    position: relative;
+    top: -20px;
+}
+
+
+
+
+
+#about .about-content .about-content-bubble {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #00000008;
+    border-radius: 50%;
+    box-shadow: 
+        inset -10px -10px 15px #ffffff0d,
+        inset 10px 10px 15px #000000e6,
+        15px 20px 20px #000000e6,
+        15px 20px 20px #000000e6;
+    background: #111111;
+}
+#about .about-content .about-content-bubble::before {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 28%;
+    left: 12%;
+    width: 12%;
+    height: 12%;
+    background: #00000090;
+}
+#about .about-content .about-content-bubble::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    top: 18%;
+    left: 22%;
+    width: 8%;
+    height: 8%;
+    background: #00000090;
+}
+#about .about-content .about-content-bubble .about-content-bubble-icon {
+    position: absolute;
+    width: 75%;
+    opacity: 0.8;
+}
+
+
+
+
+
+#about .about-features {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 2.5rem;
+    width: 100%;
+    height: min-content;
+}
+
+
+
+
+
+#about .about-features .about-features-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 1em;
+    width: 100%;
+    height: min-content;
+    color: #bbbbbb;
+}
+#about .about-features .about-features-content .about-features-description-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-family: consolas, serif;
+    width: 100%;
+}
+#about .about-features .about-features-content .about-features-description-inner {
+    position: relative;
+    border-top: 2px solid #bbbbbb;
+    padding-top: 1em;
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .about-features .about-features-content .about-features-description-inner-block {
+    position: relative;
+    width: 25%;
+    height: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+
+
+
+@media (min-width:40em){
+    #about .about-title {
+        font-size: 2.5rem;
+    }
+    #about .about-features {
+        top: -1rem;
+    }
+    #about .about-features .about-features-content {
+        width: 640px;
+        height: min-content;
+    }
+    #about .about-features .about-features-content .about-features-description-title {
+        justify-content: center;
+    }
+}
+@media (min-width:64em){
+    #about .about-title {
+        font-size: 2.75rem;
+    }
+    #about .about-content > div {
+        margin: 0 40px 40px 40px;
+        width: 400px;
+        height: 400px;
+    }
+    #about .about-features {
+        top: -0.5rem;
+    }
+    #about .about-features .about-features-content {
+        width: 880px;
+        height: min-content;
+    }
+    #about .about-features .about-features-content .about-features-description-inner-block {
+        width: 25%;
+        height: 4em;
+    }
+}
+@media (min-width:87.5em){
+    #about .about-title {
+        font-size: 3.5rem;
+    }
+    #about .about-content > div {
+        margin: 0 55px 55px 55px;
+        width: 500px;
+        height: 500px;
+    }
+    #about .about-content .about-content-description .about-content-description-title {
+        font-size: 2rem;
+    }
+    #about .about-content .about-content-description .about-content-description-inner {
+        font-size: 1rem;
+        top: -2rem;
+    }
+    #about .about-features {
+        top: 0.5rem;
+    }
+    #about .about-features .about-features-content {
+        width: 1110px;
+    }
+    #about .about-features .about-features-content .about-features-description-inner-block {
+        height: 5em;
+    }
+}
+@media (min-width:123.75em){
+    #about .about-content > div {
+        width: 600px;
+        height: 600px;
+    }
+    #about .about-content .about-content-description .about-content-description-title {
+        font-size: 2.6rem;
+    }
+    #about .about-content .about-content-description .about-content-description-inner {
+        font-size: 1.3rem;
+        top: -2.6rem;
+    }
+    #about .about-features {
+        top: 1.5rem;
+    }
+}
+@media (min-width:160em){
+    #about .about-title {
+        font-size: 5rem;
+    }
+    #about .about-content > div {
+        margin: 0 70px 70px 70px;
+        width: 700px;
+        height: 700px;
+    }
+    #about .about-content .about-content-description .about-content-description-title {
+        font-size: 3rem;
+    }
+    #about .about-content .about-content-description .about-content-description-inner {
+        font-size: 1.5rem;
+        top: -3rem;
+    }
+    #about .about-features .about-features-content .about-features-description-inner-block {
+        height: 4em;
+    }
+    #about .about-features {
+        top: 2.5rem;
+    }
+}
+
+@media (max-width: 39.9375em) {
+    #about .about-content > div {
+        width: 300px;
+        height: 300px;
+    }
+    #about .about-features {
+        top: -2.5rem;
+    }
+}
+@media (max-width: 51.9375em) {
+    #about .about-content {
+        flex-direction: column-reverse;
+    }
+    #about .about-features .about-features-content {
+        width: 300px;
+        height: min-content;
+    }
+    #about .about-features .about-features-content .about-features-description-inner-block {
+        width: 100%;
+        justify-content: center;
+    }
+    #about .about-content > div {
+        margin: 20px 0;
+    }
+}
+
+
+
+
+
