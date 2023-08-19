@@ -2,6 +2,9 @@
 
 <img src="site/assets/img/banner.png" /> 
 
+> 🫰 [提供建议](https://discord.com/channels/1062726976370126968/1064135225787035648)
+🚨 [錯誤回報](https://discord.com/channels/1062726976370126968/1064135225787035648)
+🚩 [助手下载](https://www.leefuuchang.in/projects/LeagueAssistant/Download/Setup)
 
 ## 功能简介
 
