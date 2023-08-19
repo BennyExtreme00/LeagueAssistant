@@ -24,10 +24,10 @@
     width: 100%;
     height: calc(var(--S) * 0.015);
 }
-.app-body-block.live-game-player-list .sub-player-list[data-team="1"] .team-indicator {
+.app-body-block.live-game-player-list .sub-player-list[data-is-ally="0"] .team-indicator {
     background-color: var(--team-1-color) !important;
 }
-.app-body-block.live-game-player-list .sub-player-list[data-team="2"] .team-indicator {
+.app-body-block.live-game-player-list .sub-player-list[data-is-ally="1"] .team-indicator {
     background-color: var(--team-2-color) !important;
 }
 .app-body-block.live-game-player-list .sub-player-list .team-players {
@@ -68,10 +68,10 @@
 .app-body-block.live-game-player-list .sub-player-list .group .group-indicator:hover {
     opacity: 1;
 }
-.app-body-block.live-game-player-list .sub-player-list[data-team="1"] .group .group-indicator {
+.app-body-block.live-game-player-list .sub-player-list[data-is-ally="0"] .group .group-indicator {
     background-color: var(--team-1-color) !important;
 }
-.app-body-block.live-game-player-list .sub-player-list[data-team="2"] .group .group-indicator {
+.app-body-block.live-game-player-list .sub-player-list[data-is-ally="1"] .group .group-indicator {
     background-color: var(--team-2-color) !important;
 }
 .app-body-block.live-game-player-list .sub-player-list .group .group-indicator .group-detail {

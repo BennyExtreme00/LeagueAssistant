@@ -85,7 +85,7 @@ class Main_Part_LiveGamePlayerList extends AppBodyMain_Part {
             return pv;
         }, {"html":"", "count":0});
         let html = `
-        <div class="sub-player-list" data-team="${1+!isAlly}">
+        <div class="sub-player-list" data-is-ally="${+isAlly}">
             <div class="team-indicator"></div>
             <div class="team-players">${groupData["html"]}</div>
         </div>`;
