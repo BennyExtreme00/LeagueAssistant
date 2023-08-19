@@ -1,0 +1,32 @@
+#app[theme="light"] .app-body-block.lol-champion-build .pair-items .pair-items-item span {
+    color: var(--white-100) !important;
+    background-color: var(--black-300) !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build .pair-detail .pair-detail-item span {
+    color: var(--white-100) !important;
+    background-color: var(--black-300) !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build .pair-stats .pair-stats-item .mask {
+    background-color: var(--black-200) !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build .pair-stats .pair-stats-item span {
+    color: var(--black-200) !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build>.block-inner span[data-name="champion"] {
+    color: var(--black-200) !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build>.block-inner span[data-name="queue"] {
+    color: var(--black-700) !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build>.block-inner span[data-skill="Q"] {
+    color: #0093FF !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build>.block-inner span[data-skill="W"] {
+    color: #00D7B0 !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build>.block-inner span[data-skill="E"] {
+    color: #FF8200 !important;
+}
+#app[theme="light"] .app-body-block.lol-champion-build>.block-inner span[data-skill="R"] {
+    color: var(--white-100) !important;
+}

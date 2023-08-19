@@ -1,0 +1,289 @@
+@import url("./dark.css");
+@import url("./light.css");
+
+.app-body-block.lol-champion-build {
+    height: 100%;
+}
+.app-body-block.lol-champion-build .pair-items {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 100%;
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: calc(var(--S) * 0.01);
+    width: auto;
+    height: 100%;
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-button {
+    margin-left: calc(var(--S) * 0.01);
+    width: calc(var(--S) * 0.04);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-button .mask {
+    width: calc(var(--S) * 0.04);
+    height: calc(var(--S) * 0.04);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-apply-button .mask {
+    mask-image: url("https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-postgame/global/default/add-rune-page.png");
+    -webkit-mask-image: url("https://raw.communitydragon.org/latest/plugins/rcp-fe-lol-postgame/global/default/add-rune-page.png");
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item:last-child {
+    margin-right: 0;
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item img {
+    border-radius: calc(var(--S) * 0.01);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item span {
+    position: absolute;
+    transform: translate(50%, 50%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30% 30% 0 30%;
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-0 img {
+    width: calc(var(--S) * 0.03);
+    height: calc(var(--S) * 0.03);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-1 img {
+    width: calc(var(--S) * 0.04);
+    height: calc(var(--S) * 0.04);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-1 span {
+    width: calc(var(--S) * 0.02);
+    height: calc(var(--S) * 0.02);
+    font-size: calc(var(--S) * 0.014);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-2 img {
+    width: calc(var(--S) * 0.05);
+    height: calc(var(--S) * 0.05);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-2 span {
+    width: calc(var(--S) * 0.025);
+    height: calc(var(--S) * 0.025);
+    font-size: calc(var(--S) * 0.017);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-3 img {
+    width: calc(var(--S) * 0.06);
+    height: calc(var(--S) * 0.06);
+}
+.app-body-block.lol-champion-build .pair-items .pair-items-item.pair-items-3 span {
+    width: calc(var(--S) * 0.03);
+    height: calc(var(--S) * 0.03);
+    font-size: calc(var(--S) * 0.02);
+}
+
+.app-body-block.lol-champion-build .pair-detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: calc(var(--S) * 0.005);
+    width: auto;
+    height: 100%;
+}
+.app-body-block.lol-champion-build .pair-detail .pair-detail-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-right: calc(var(--S) * 0.005);
+    width: calc(var(--S) * 0.025);
+    height: calc(var(--S) * 0.025);
+}
+.app-body-block.lol-champion-build .pair-detail .pair-detail-item:last-child {
+    margin-right: 0;
+}
+.app-body-block.lol-champion-build .pair-detail .pair-detail-item img {
+    border-radius: calc(var(--S) * 0.01);
+}
+.app-body-block.lol-champion-build .pair-detail .pair-detail-item span {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 30%;
+    width: calc(var(--S) * 0.025);
+    height: calc(var(--S) * 0.025);
+    font-size: calc(var(--S) * 0.014);
+}
+
+.app-body-block.lol-champion-build .pair-stats {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    height: 100%;
+}
+.app-body-block.lol-champion-build .pair-stats .pair-stats-item {
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: calc(var(--S) * 0.1);
+    height: calc(var(--S) * 0.025);
+}
+.app-body-block.lol-champion-build .pair-stats .pair-stats-item .mask {
+    margin-right: calc(var(--S) * 0.005);
+    width: calc(var(--S) * 0.025);
+    height: calc(var(--S) * 0.025);
+}
+.app-body-block.lol-champion-build .pair-stats .pair-stats-item.pair-stats-wr .mask {
+    mask-image: url("/ui/assets/media/trends/wr.png");
+    -webkit-mask-image: url("/ui/assets/media/trends/wr.png");
+}
+.app-body-block.lol-champion-build .pair-stats .pair-stats-item.pair-stats-pr .mask {
+    mask-image: url("/ui/assets/media/trends/pr.png");
+    -webkit-mask-image: url("/ui/assets/media/trends/pr.png");
+}
+.app-body-block.lol-champion-build .pair-stats .pair-stats-item span {
+    font-size: calc(var(--S) * 0.018);
+    width: calc(var(--S) * 0.075);
+    height: calc(var(--S) * 0.025);
+}
+
+.app-body-block.lol-champion-build>.block-inner {
+    position: relative;
+    width: 100%;
+    height: calc(var(--S) * 0.78);
+    display: grid;
+    grid-template-rows: repeat(8, 1fr);
+    row-gap: calc(var(--S) * 0.01);
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: calc(var(--S) * 0.01);
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon img {
+    width: 100%;
+    border-radius: calc(var(--S) * 0.02);
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon span {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translate(-25%, 25%);
+    width: calc(var(--S) * 0.044);
+    height: calc(var(--S) * 0.044);
+    display: inline-block;
+    background-size: auto 80%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon[data-tier="0"] span {
+    background-image: url("/ui/assets/media/trends/T0.svg");
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon[data-tier="1"] span {
+    background-image: url("/ui/assets/media/trends/T1.svg");
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon[data-tier="2"] span {
+    background-image: url("/ui/assets/media/trends/T2.svg");
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon[data-tier="3"] span {
+    background-image: url("/ui/assets/media/trends/T3.svg");
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon[data-tier="4"] span {
+    background-image: url("/ui/assets/media/trends/T4.svg");
+}
+.app-body-block.lol-champion-build>.block-inner .champion-icon[data-tier="5"] span {
+    background-image: url("/ui/assets/media/trends/T5.svg");
+}
+.app-body-block.lol-champion-build>.block-inner .champion-name {
+    padding-left: calc(var(--S) * 0.04);
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-name span[data-name="champion"] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(var(--S) * 0.06);
+    font-size: calc(var(--S) * 0.04);
+}
+.app-body-block.lol-champion-build>.block-inner .champion-name span[data-name="queue"] {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: calc(var(--S) * 0.025);
+    font-size: calc(var(--S) * 0.018);
+}
+.app-body-block.lol-champion-build>.block-inner .options-rank {
+    grid-row: 1 / 2;
+    grid-column: 5 / 6;
+    width: 100%;
+}
+.app-body-block.lol-champion-build>.block-inner .options-mode {
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+    width: 100%;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-spells {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-spells .champion-spell-pair {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(var(--S) * 0.04);
+}
+.app-body-block.lol-champion-build>.block-inner .champion-skills {
+    grid-row: 2 / 3;
+    grid-column: 3 / 6;
+}
+
+.app-body-block.lol-champion-build>.block-inner .champion-build-pair {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: calc(var(--S) * 0.06);
+}
+.app-body-block.lol-champion-build>.block-inner .champion-starters {
+    grid-row: 3 / 5;
+    grid-column: 1 / 4;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-boots {
+    grid-row: 3 / 5;
+    grid-column: 4 / 6;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-cores {
+    grid-row: 5 / 7;
+    grid-column: 1 / 4;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-items {
+    grid-row: 5 / 7;
+    grid-column: 4 / 6;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-cores .pair-items-item,
+.app-body-block.lol-champion-build>.block-inner .champion-items .pair-items-item {
+    width: calc(var(--S) * 0.06);
+    height: calc(var(--S) * 0.06);
+}
+.app-body-block.lol-champion-build>.block-inner .champion-runes {
+    grid-row: 7 / 9;
+    grid-column: 1 / 6;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-grid-block {
+    width: 100%;
+    height: 100%;
+}
+.app-body-block.lol-champion-build>.block-inner .champion-starters .y-scrollable,
+.app-body-block.lol-champion-build>.block-inner .champion-boots .y-scrollable,
+.app-body-block.lol-champion-build>.block-inner .champion-cores .y-scrollable,
+.app-body-block.lol-champion-build>.block-inner .champion-items .y-scrollable,
+.app-body-block.lol-champion-build>.block-inner .champion-runes .y-scrollable {
+    flex: 1;
+}
