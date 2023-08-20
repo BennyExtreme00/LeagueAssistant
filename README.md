@@ -18,35 +18,35 @@
 
 
 ## 玩家查詢－對戰紀錄
-![](screenshots/1.png)
-![](screenshots/2.png)
+<img src="screenshots/1.png" /> 
+<img src="screenshots/2.png" /> 
 
 ## 玩家查詢－戰棋紀錄
-![](screenshots/3.png)
+<img src="screenshots/3.png" /> 
 
 ## 玩家查詢－圖表化玩家數據
-![](screenshots/4.png)
+<img src="screenshots/4.png" /> 
 
 ## 遊戲數據－OPGG英雄數據
-![](screenshots/5.png)
-![](screenshots/6.png)
+<img src="screenshots/5.png" /> 
+<img src="screenshots/6.png" /> 
 
 ## 遊戲數據－OPGG戰棋數據
-![](screenshots/7.png)
-![](screenshots/8.png)
+<img src="screenshots/7.png" /> 
+<img src="screenshots/8.png" /> 
 
 ## 遊戲數據－玩家挑戰數據
-![](screenshots/9.png)
+<img src="screenshots/9.png" /> 
 
 ## 遊戲數據－實時稽查對局玩家
-![](screenshots/14.png)
-![](screenshots/15.png)
+<img src="screenshots/14.png" /> 
+<img src="screenshots/15.png" /> 
 
 ## 特殊功能－客製化設定頁面
-![](screenshots/10.png) 
-![](screenshots/11.png) 
-![](screenshots/12.png) 
-![](screenshots/13.png) 
+<img src="screenshots/10.png" />  
+<img src="screenshots/11.png" />  
+<img src="screenshots/12.png" />  
+<img src="screenshots/13.png" />  
 
 ## Star History
 <a href="https://star-history.com/#LeeFuuChang/LeagueAssistant&Date">
