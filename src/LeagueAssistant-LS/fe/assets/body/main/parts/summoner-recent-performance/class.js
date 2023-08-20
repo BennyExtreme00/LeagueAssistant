@@ -148,6 +148,7 @@ class Main_Part_SummonerRecentPerformance extends AppBodyMain_Part {
                     "datasets": datasets,
                 },
                 "options": {
+                    "tension": 0.4,
                     "onResize": (chart, size)=>{
                         let s = Math.min(...Object.values(size)) / 100;
                         chart["options"]["plugins"]["legend"]["labels"]["font"] = {
