@@ -59,17 +59,25 @@
     padding: calc(var(--S) * 0.0025) calc(var(--S) * 0.0075);
     border-radius: calc(var(--S) * 0.005);
 }
-.app-body-block.lol-match-detail .match-detail-info .match-info-item.match-info-gold .info-item-inner span::before {
-    content: "+";
+
+.app-body-block.lol-match-detail .match-detail-info .match-info-item.match-info-gold .info-item-inner span::before,
+.app-body-block.lol-match-detail .match-detail-info .match-info-item.match-info-gold .info-item-inner span::after {
     position: absolute;
     display: grid;
     place-content: center;
     top: 50%;
-    left: calc(var(--S) * -0.01);
     transform: translateY(-50%);
     width: calc(var(--S) * 0.01);
     height: 100%;
-    font-weight: 700;
+    font-weight: 600;
+}
+.app-body-block.lol-match-detail .match-detail-info .match-info-item.match-info-gold .info-item-inner span::before {
+    content: "+";
+    left: calc(var(--S) * -0.01);
+}
+.app-body-block.lol-match-detail .match-detail-info .match-info-item.match-info-gold .info-item-inner span::after {
+    content: "K";
+    right: calc(var(--S) * -0.01);
 }
 
 

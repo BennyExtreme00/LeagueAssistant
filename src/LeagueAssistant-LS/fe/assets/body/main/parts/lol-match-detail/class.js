@@ -355,7 +355,7 @@ class Main_Part_LolMatchDetail extends AppBodyMain_Part {
                         matchDetail.find(".match-info-score .info-item-inner span[data-team='2']").text(this.gameSummaries["kills"]["teams"]["2"]["sum"]);
         
                         let goldEarnedGap = (this.gameSummaries["goldEarned"]["teams"]["2"]["sum"]-this.gameSummaries["goldEarned"]["teams"]["1"]["sum"]);
-                        matchDetail.find(".match-info-gold .info-item-inner span").attr("data-team", (goldEarnedGap>0)+1).text(Math.abs(goldEarnedGap));
+                        matchDetail.find(".match-info-gold .info-item-inner span").attr("data-team", (goldEarnedGap>0)+1).text((Math.abs(goldEarnedGap)/1000).toFixed(1));
         
                         let identities = {};
                         for(let playerIdentity of data["response"]["participantIdentities"]){
